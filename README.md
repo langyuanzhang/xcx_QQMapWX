@@ -9,7 +9,7 @@
 3. 安全域名设置，需要在微信公众平台添加域名地址https://apis.map.qq.com
 
 
-```
+```js
 //计算距离
 ctdistance: function (data, i, callback = function () { }) {
     var that = this;
@@ -48,7 +48,7 @@ ctdistance: function (data, i, callback = function () { }) {
 }
 ```
 
-```
+```js
 //调用
 that.ctdistance(res.data, 0, function (data) {
             //回调的结果带有距离参数
